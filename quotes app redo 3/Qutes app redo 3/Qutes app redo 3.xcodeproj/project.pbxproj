@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326020E528B2176B00EC6A37 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326020E428B2176B00EC6A37 /* detailView.swift */; };
+		32D6F80B28B20F4C004D0F5F /* Qutes_app_redo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F80A28B20F4C004D0F5F /* Qutes_app_redo3.swift */; };
+		32D6F80D28B20F4C004D0F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F80C28B20F4C004D0F5F /* ContentView.swift */; };
+		32D6F80F28B20F4D004D0F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D6F80E28B20F4D004D0F5F /* Assets.xcassets */; };
+		32D6F81228B20F4D004D0F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D6F81128B20F4D004D0F5F /* Preview Assets.xcassets */; };
+		32D6F81C28B20F4D004D0F5F /* Qutes_app_redo_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F81B28B20F4D004D0F5F /* Qutes_app_redo_3Tests.swift */; };
+		32D6F82628B20F4D004D0F5F /* Qutes_app_redo_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F82528B20F4D004D0F5F /* Qutes_app_redo_3UITests.swift */; };
+		32D6F82828B20F4D004D0F5F /* Qutes_app_redo_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F82728B20F4D004D0F5F /* Qutes_app_redo_3UITestsLaunchTests.swift */; };
+		32D6F83928B20FAA004D0F5F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D6F83828B20FAA004D0F5F /* data.json */; };
+		32D6F83B28B20FDD004D0F5F /* Authors .swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F83A28B20FDD004D0F5F /* Authors .swift */; };
+		32D6F83D28B21064004D0F5F /* Authors viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F83C28B21064004D0F5F /* Authors viewModel.swift */; };
+		32D6F83F28B2130D004D0F5F /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6F83E28B2130D004D0F5F /* card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32D6F81828B20F4D004D0F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D6F7FF28B20F4C004D0F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D6F80628B20F4C004D0F5F;
+			remoteInfo = "Qutes app redo 3";
+		};
+		32D6F82228B20F4D004D0F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D6F7FF28B20F4C004D0F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D6F80628B20F4C004D0F5F;
+			remoteInfo = "Qutes app redo 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		326020E428B2176B00EC6A37 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		32D6F80728B20F4C004D0F5F /* Qutes app redo 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qutes app redo 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D6F80A28B20F4C004D0F5F /* Qutes_app_redo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qutes_app_redo3.swift; sourceTree = "<group>"; };
+		32D6F80C28B20F4C004D0F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32D6F80E28B20F4D004D0F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32D6F81128B20F4D004D0F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32D6F81728B20F4D004D0F5F /* Qutes app redo 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qutes app redo 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D6F81B28B20F4D004D0F5F /* Qutes_app_redo_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qutes_app_redo_3Tests.swift; sourceTree = "<group>"; };
+		32D6F82128B20F4D004D0F5F /* Qutes app redo 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qutes app redo 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D6F82528B20F4D004D0F5F /* Qutes_app_redo_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qutes_app_redo_3UITests.swift; sourceTree = "<group>"; };
+		32D6F82728B20F4D004D0F5F /* Qutes_app_redo_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qutes_app_redo_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32D6F83828B20FAA004D0F5F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		32D6F83A28B20FDD004D0F5F /* Authors .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authors .swift"; sourceTree = "<group>"; };
+		32D6F83C28B21064004D0F5F /* Authors viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authors viewModel.swift"; sourceTree = "<group>"; };
+		32D6F83E28B2130D004D0F5F /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D6F80428B20F4C004D0F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81428B20F4D004D0F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81E28B20F4D004D0F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D6F7FE28B20F4C004D0F5F = {
+			isa = PBXGroup;
+			children = (
+				32D6F80928B20F4C004D0F5F /* Qutes app redo 3 */,
+				32D6F81A28B20F4D004D0F5F /* Qutes app redo 3Tests */,
+				32D6F82428B20F4D004D0F5F /* Qutes app redo 3UITests */,
+				32D6F80828B20F4C004D0F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D6F80828B20F4C004D0F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F80728B20F4C004D0F5F /* Qutes app redo 3.app */,
+				32D6F81728B20F4D004D0F5F /* Qutes app redo 3Tests.xctest */,
+				32D6F82128B20F4D004D0F5F /* Qutes app redo 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D6F80928B20F4C004D0F5F /* Qutes app redo 3 */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F83428B20F70004D0F5F /* View */,
+				32D6F83528B20F7B004D0F5F /* ViewModel */,
+				32D6F83628B20F82004D0F5F /* Model */,
+				32D6F83728B20F9F004D0F5F /* Data */,
+				32D6F80E28B20F4D004D0F5F /* Assets.xcassets */,
+				32D6F81028B20F4D004D0F5F /* Preview Content */,
+			);
+			path = "Qutes app redo 3";
+			sourceTree = "<group>";
+		};
+		32D6F81028B20F4D004D0F5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F81128B20F4D004D0F5F /* Preview Assets.xcassets */,
+				32D6F80A28B20F4C004D0F5F /* Qutes_app_redo3.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32D6F81A28B20F4D004D0F5F /* Qutes app redo 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F81B28B20F4D004D0F5F /* Qutes_app_redo_3Tests.swift */,
+			);
+			path = "Qutes app redo 3Tests";
+			sourceTree = "<group>";
+		};
+		32D6F82428B20F4D004D0F5F /* Qutes app redo 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F82528B20F4D004D0F5F /* Qutes_app_redo_3UITests.swift */,
+				32D6F82728B20F4D004D0F5F /* Qutes_app_redo_3UITestsLaunchTests.swift */,
+			);
+			path = "Qutes app redo 3UITests";
+			sourceTree = "<group>";
+		};
+		32D6F83428B20F70004D0F5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F80C28B20F4C004D0F5F /* ContentView.swift */,
+				326020E428B2176B00EC6A37 /* detailView.swift */,
+				32D6F83E28B2130D004D0F5F /* card.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32D6F83528B20F7B004D0F5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F83C28B21064004D0F5F /* Authors viewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		32D6F83628B20F82004D0F5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F83A28B20FDD004D0F5F /* Authors .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32D6F83728B20F9F004D0F5F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32D6F83828B20FAA004D0F5F /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D6F80628B20F4C004D0F5F /* Qutes app redo 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D6F82B28B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3" */;
+			buildPhases = (
+				32D6F80328B20F4C004D0F5F /* Sources */,
+				32D6F80428B20F4C004D0F5F /* Frameworks */,
+				32D6F80528B20F4C004D0F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qutes app redo 3";
+			productName = "Qutes app redo 3";
+			productReference = 32D6F80728B20F4C004D0F5F /* Qutes app redo 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32D6F81628B20F4D004D0F5F /* Qutes app redo 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D6F82E28B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3Tests" */;
+			buildPhases = (
+				32D6F81328B20F4D004D0F5F /* Sources */,
+				32D6F81428B20F4D004D0F5F /* Frameworks */,
+				32D6F81528B20F4D004D0F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D6F81928B20F4D004D0F5F /* PBXTargetDependency */,
+			);
+			name = "Qutes app redo 3Tests";
+			productName = "Qutes app redo 3Tests";
+			productReference = 32D6F81728B20F4D004D0F5F /* Qutes app redo 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32D6F82028B20F4D004D0F5F /* Qutes app redo 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D6F83128B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3UITests" */;
+			buildPhases = (
+				32D6F81D28B20F4D004D0F5F /* Sources */,
+				32D6F81E28B20F4D004D0F5F /* Frameworks */,
+				32D6F81F28B20F4D004D0F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D6F82328B20F4D004D0F5F /* PBXTargetDependency */,
+			);
+			name = "Qutes app redo 3UITests";
+			productName = "Qutes app redo 3UITests";
+			productReference = 32D6F82128B20F4D004D0F5F /* Qutes app redo 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32D6F7FF28B20F4C004D0F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					32D6F80628B20F4C004D0F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					32D6F81628B20F4D004D0F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 32D6F80628B20F4C004D0F5F;
+					};
+					32D6F82028B20F4D004D0F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 32D6F80628B20F4C004D0F5F;
+					};
+				};
+			};
+			buildConfigurationList = 32D6F80228B20F4C004D0F5F /* Build configuration list for PBXProject "Qutes app redo 3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32D6F7FE28B20F4C004D0F5F;
+			productRefGroup = 32D6F80828B20F4C004D0F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D6F80628B20F4C004D0F5F /* Qutes app redo 3 */,
+				32D6F81628B20F4D004D0F5F /* Qutes app redo 3Tests */,
+				32D6F82028B20F4D004D0F5F /* Qutes app redo 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D6F80528B20F4C004D0F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D6F81228B20F4D004D0F5F /* Preview Assets.xcassets in Resources */,
+				32D6F83928B20FAA004D0F5F /* data.json in Resources */,
+				32D6F80F28B20F4D004D0F5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81528B20F4D004D0F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81F28B20F4D004D0F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D6F80328B20F4C004D0F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D6F83D28B21064004D0F5F /* Authors viewModel.swift in Sources */,
+				32D6F83B28B20FDD004D0F5F /* Authors .swift in Sources */,
+				32D6F80D28B20F4C004D0F5F /* ContentView.swift in Sources */,
+				326020E528B2176B00EC6A37 /* detailView.swift in Sources */,
+				32D6F83F28B2130D004D0F5F /* card.swift in Sources */,
+				32D6F80B28B20F4C004D0F5F /* Qutes_app_redo3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81328B20F4D004D0F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D6F81C28B20F4D004D0F5F /* Qutes_app_redo_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D6F81D28B20F4D004D0F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D6F82628B20F4D004D0F5F /* Qutes_app_redo_3UITests.swift in Sources */,
+				32D6F82828B20F4D004D0F5F /* Qutes_app_redo_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32D6F81928B20F4D004D0F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D6F80628B20F4C004D0F5F /* Qutes app redo 3 */;
+			targetProxy = 32D6F81828B20F4D004D0F5F /* PBXContainerItemProxy */;
+		};
+		32D6F82328B20F4D004D0F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D6F80628B20F4C004D0F5F /* Qutes app redo 3 */;
+			targetProxy = 32D6F82228B20F4D004D0F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32D6F82928B20F4D004D0F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32D6F82A28B20F4D004D0F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32D6F82C28B20F4D004D0F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qutes app redo 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32D6F82D28B20F4D004D0F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qutes app redo 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32D6F82F28B20F4D004D0F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qutes app redo 3.app/Qutes app redo 3";
+			};
+			name = Debug;
+		};
+		32D6F83028B20F4D004D0F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qutes app redo 3.app/Qutes app redo 3";
+			};
+			name = Release;
+		};
+		32D6F83228B20F4D004D0F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qutes app redo 3";
+			};
+			name = Debug;
+		};
+		32D6F83328B20F4D004D0F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArthurSh.Qutes-app-redo-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Qutes app redo 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32D6F80228B20F4C004D0F5F /* Build configuration list for PBXProject "Qutes app redo 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D6F82928B20F4D004D0F5F /* Debug */,
+				32D6F82A28B20F4D004D0F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D6F82B28B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D6F82C28B20F4D004D0F5F /* Debug */,
+				32D6F82D28B20F4D004D0F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D6F82E28B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D6F82F28B20F4D004D0F5F /* Debug */,
+				32D6F83028B20F4D004D0F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D6F83128B20F4D004D0F5F /* Build configuration list for PBXNativeTarget "Qutes app redo 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D6F83228B20F4D004D0F5F /* Debug */,
+				32D6F83328B20F4D004D0F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32D6F7FF28B20F4C004D0F5F /* Project object */;
+}
